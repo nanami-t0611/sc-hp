@@ -1,0 +1,312 @@
+@media (max-width: 630px) {
+    .container {
+        padding: 5% 5% 10% 5%;
+    }
+    
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .more-btn {
+        padding-top: 20px;
+    }
+
+    .pd-cut {
+        padding-top: 0;
+    }
+
+    header {
+        height: 70vh;
+        #main-header {
+            .header-top {
+                height: 73px;
+                h1 {
+                    width: 50px;
+                    margin-top: 5px;
+                    top: 0;
+                    left: 5%;
+                }
+                .nav {
+                    top: 70px !important;
+                    .header-list {
+                        gap: 15px;
+                        .header-list-top {
+                            .header-list-sub {
+                                .header-content {
+                                    .header-content-sub {
+                                        font-size: 0.8rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .toggle_btn {
+                    height: 70px;
+                    right: 0%;
+                    span {
+                        &:nth-child(1) {
+                            top: 23px;
+                        }
+                        &:nth-child(2) {
+                            top: 38px;
+                        }
+                        &:nth-child(3) {
+                            top: 53px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #match {
+        .match-top {
+            display: block;
+            // flex-direction: column;
+            .match-btn {
+                text-align: right;
+                .btn-text {
+                    width: 70px;
+                    height: 25px;
+                    line-height: 25px;
+                    font-size: 0.9rem;
+                    margin-left: 20px;
+                    &:hover {
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+        }
+        .match-list {
+            margin: 30px 0 0 0;
+            padding: 0;
+            .match-box {
+                .match-box-wrapper {
+                    max-width: 300px;
+                    .match-text {
+                        .opponent {
+                            max-width: 70px;
+                        }
+                        .match-center-info {
+                            .matchdate {
+                                .date {
+                                    font-size: 100%;
+                                }
+                                .week {
+                                    font-size: 80%;
+                                }
+                                .time {
+                                    font-size: 100%;
+                                }
+                                .match-place {
+                                    font-size: 70%;
+                                    margin-left: 2%;
+                                }
+                            }
+                            .opponent-text{
+                                margin-left: 0;
+                                .opponent-name {
+                                    font-size: 150%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn-list {
+                    margin-left: 13%;
+                    .match-info-btn {
+                        width: 40%;
+                        font-size: 80%;
+                        &::after {
+                            display: none;
+                        }
+                        &:nth-child(2) {
+                            margin-left: 5%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .prev-arrow {
+        left: 2vw;
+    }
+    .next-arrow {
+        right: 2vw;
+    }
+
+    #latestmatch {
+        .latest-box {
+            .latest-top-text {
+                .latest-date {
+                    padding-right: 10px;
+                }
+                .latest-league {
+                    padding-left: 10px;
+                }
+            }
+            .result {
+                .score-text {
+                    .total-score {
+                        font-size: 50px;
+                    }
+                    .score-board {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    #ranking {
+        .left-rank {
+            flex-direction: column;
+            .first-posi {
+                width: 100%;
+                font-size: 1rem;
+                span {
+                    font-size: 3rem;
+                }
+                .myteam-name {
+                    font-size: 2rem;
+                }
+            }
+            .other-posi {
+                width: 100%;
+                font-size: .8rem;
+                span {
+                    font-size: 2rem;
+                }
+                .team-name {
+                    font-size: 1.5rem;
+                }
+            }
+            .second-rank {
+                left: 0;
+            }
+            .third-rank {
+                left: 0;
+            }
+        }
+    }
+
+    #schedule {
+        .week-box {
+            flex-direction: column;
+            .schedule-item {
+                width: 100%;
+                height: 150px;
+            }
+        }
+    }
+
+    #player {
+        .player-box {
+            li {
+                .player-item {
+                    max-width: 300px;
+                    height: 380px;
+                    margin: 0 auto;
+                    .number {
+                        font-size: 600%;
+                        top: 0;
+                        right: 0;
+                    }
+                    .img {
+                        width: 100%;
+                    }
+                    .name {
+                        font-size: 350%;
+                        bottom: 10%;
+                    }
+                }
+            }
+        }
+        .more-btn {
+            padding-top: 0;
+        }
+    }
+    .slide-arrow-player {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        transform: rotateY(-50%);
+        z-index: 5;
+        background: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .prev-arrow-player {
+        left: 5vw;
+    }
+    .next-arrow-player {
+        right: 5vw;
+    }
+
+    #goods {
+        .goods-box {
+            flex-direction: column;
+            .item {
+                width: 100%;
+                height: 200px;
+                display: flex;
+                img {
+                    width: 50%;
+                }
+                .item-text {
+                    width: 50%;
+                    .item-name {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #guide {
+        .guide-list {
+            .guide-item {
+                margin-top: 50px;
+                &:nth-child(even) {
+                    margin-right: 10%;
+                }
+                &:nth-child(odd) {
+                    margin-left: 10%;
+                }
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer-top {
+            .footer-emb {
+                width: 100px;
+            }
+            .footer-minilist {
+                ul {
+                    flex-wrap: wrap;
+                }
+            }
+        }
+        .end-list {
+            flex-direction: column;
+            .end-item {
+                width: 100%;
+                .end-content-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}
